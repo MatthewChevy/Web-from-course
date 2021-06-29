@@ -8,7 +8,6 @@ if ( window.innerWidth >= 748 ){
 
     let list = document.querySelectorAll('.ul-nav-bar'),
         menu = document.querySelectorAll('.menu-nav-bar');
-
         menu[1].addEventListener('click', function() {  
         
             if (  list[0].style.display === "block" ) {
